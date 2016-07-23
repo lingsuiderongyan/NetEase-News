@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A8ED471D4114DE00ECA928 /* RYCycleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8ED461D4114DE00ECA928 /* RYCycleCollectionViewController.m */; };
+		D3A8ED4A1D41182A00ECA928 /* RYCycleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8ED491D41182A00ECA928 /* RYCycleModel.m */; };
+		D3A8ED4D1D411FF200ECA928 /* RYCycleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8ED4C1D411FF200ECA928 /* RYCycleCollectionViewCell.m */; };
+		D3B1FB0D1D40579B00810723 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B1FB0C1D40579B00810723 /* News.storyboard */; };
+		D3C68A961D3E1DE7006AA5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68A951D3E1DE7006AA5FF /* main.m */; };
+		D3C68A991D3E1DE7006AA5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68A981D3E1DE7006AA5FF /* AppDelegate.m */; };
+		D3C68A9F1D3E1DE8006AA5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C68A9D1D3E1DE8006AA5FF /* Main.storyboard */; };
+		D3C68AA11D3E1DE8006AA5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C68AA01D3E1DE8006AA5FF /* Assets.xcassets */; };
+		D3C68AA41D3E1DE8006AA5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C68AA21D3E1DE8006AA5FF /* LaunchScreen.storyboard */; };
+		D3C68AAF1D3E2377006AA5FF /* .Ulysses-Group.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C68AAC1D3E2377006AA5FF /* .Ulysses-Group.plist */; };
+		D3C68AB01D3E2377006AA5FF /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68AAE1D3E2377006AA5FF /* NSArray+Log.m */; };
+		D3C68AB21D3E239F006AA5FF /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C68AB11D3E239F006AA5FF /* topic_news.json */; };
+		D3C68ABD1D3E273C006AA5FF /* RYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68ABC1D3E273C006AA5FF /* RYHomeViewController.m */; };
+		D3C68AC01D3E2932006AA5FF /* RYChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68ABF1D3E2932006AA5FF /* RYChannelModel.m */; };
+		D3C68AC31D3E4F9F006AA5FF /* RYChanneiLab.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68AC21D3E4F9F006AA5FF /* RYChanneiLab.m */; };
+		D3C68AC61D3E5A7B006AA5FF /* RYHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68AC51D3E5A7B006AA5FF /* RYHomeCollectionViewCell.m */; };
+		D3C68ACE1D3E5DFF006AA5FF /* RYNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68ACD1D3E5DFF006AA5FF /* RYNewsTableViewController.m */; };
+		D3C68AD11D3E5E1E006AA5FF /* RYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68AD01D3E5E1E006AA5FF /* RYNewsModel.m */; };
+		D3C68AD51D3E5EA1006AA5FF /* RYNetworlTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C68AD41D3E5EA1006AA5FF /* RYNetworlTools.m */; };
+		D3D1AD5C1D40EC9A00A7D00A /* RYNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D1AD5B1D40EC9A00A7D00A /* RYNewsTableViewCell.m */; };
+		F9328B2FEFB258D15D97411E /* libPods-网易彩票.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF25D47C1E1BD9DC3B33D4D /* libPods-网易彩票.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAF25D47C1E1BD9DC3B33D4D /* libPods-网易彩票.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-网易彩票.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA259A6D332F110111871987 /* Pods-网易彩票.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网易彩票.debug.xcconfig"; path = "Pods/Target Support Files/Pods-网易彩票/Pods-网易彩票.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A8ED451D4114DE00ECA928 /* RYCycleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCycleCollectionViewController.h; sourceTree = "<group>"; };
+		D3A8ED461D4114DE00ECA928 /* RYCycleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCycleCollectionViewController.m; sourceTree = "<group>"; };
+		D3A8ED481D41182A00ECA928 /* RYCycleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCycleModel.h; sourceTree = "<group>"; };
+		D3A8ED491D41182A00ECA928 /* RYCycleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCycleModel.m; sourceTree = "<group>"; };
+		D3A8ED4B1D411FF200ECA928 /* RYCycleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCycleCollectionViewCell.h; sourceTree = "<group>"; };
+		D3A8ED4C1D411FF200ECA928 /* RYCycleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCycleCollectionViewCell.m; sourceTree = "<group>"; };
+		D3B1FB0C1D40579B00810723 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		D3C68A911D3E1DE7006AA5FF /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C68A951D3E1DE7006AA5FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C68A971D3E1DE7006AA5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3C68A981D3E1DE7006AA5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3C68A9E1D3E1DE8006AA5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C68AA01D3E1DE8006AA5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C68AA31D3E1DE8006AA5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C68AA51D3E1DE8006AA5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C68AAC1D3E2377006AA5FF /* .Ulysses-Group.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ".Ulysses-Group.plist"; sourceTree = "<group>"; };
+		D3C68AAD1D3E2377006AA5FF /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		D3C68AAE1D3E2377006AA5FF /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		D3C68AB11D3E239F006AA5FF /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		D3C68ABB1D3E273C006AA5FF /* RYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeViewController.h; sourceTree = "<group>"; };
+		D3C68ABC1D3E273C006AA5FF /* RYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeViewController.m; sourceTree = "<group>"; };
+		D3C68ABE1D3E2932006AA5FF /* RYChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChannelModel.h; sourceTree = "<group>"; };
+		D3C68ABF1D3E2932006AA5FF /* RYChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChannelModel.m; sourceTree = "<group>"; };
+		D3C68AC11D3E4F9F006AA5FF /* RYChanneiLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChanneiLab.h; sourceTree = "<group>"; };
+		D3C68AC21D3E4F9F006AA5FF /* RYChanneiLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChanneiLab.m; sourceTree = "<group>"; };
+		D3C68AC41D3E5A7B006AA5FF /* RYHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		D3C68AC51D3E5A7B006AA5FF /* RYHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		D3C68ACC1D3E5DFF006AA5FF /* RYNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsTableViewController.h; sourceTree = "<group>"; };
+		D3C68ACD1D3E5DFF006AA5FF /* RYNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsTableViewController.m; sourceTree = "<group>"; };
+		D3C68ACF1D3E5E1E006AA5FF /* RYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsModel.h; sourceTree = "<group>"; };
+		D3C68AD01D3E5E1E006AA5FF /* RYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsModel.m; sourceTree = "<group>"; };
+		D3C68AD31D3E5EA1006AA5FF /* RYNetworlTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworlTools.h; sourceTree = "<group>"; };
+		D3C68AD41D3E5EA1006AA5FF /* RYNetworlTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworlTools.m; sourceTree = "<group>"; };
+		D3D1AD5A1D40EC9A00A7D00A /* RYNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsTableViewCell.h; sourceTree = "<group>"; };
+		D3D1AD5B1D40EC9A00A7D00A /* RYNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsTableViewCell.m; sourceTree = "<group>"; };
+		D4E3E6D0B475227F5D0CB346 /* Pods-网易彩票.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网易彩票.release.xcconfig"; path = "Pods/Target Support Files/Pods-网易彩票/Pods-网易彩票.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C68A8E1D3E1DE7006AA5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9328B2FEFB258D15D97411E /* libPods-网易彩票.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		243ECC40AE81F12805277418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF25D47C1E1BD9DC3B33D4D /* libPods-网易彩票.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A8ED411D4114A200ECA928 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8ED421D4114A200ECA928 /* model */,
+				D3A8ED431D4114A200ECA928 /* view */,
+				D3A8ED441D4114A200ECA928 /* viewController */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		D3A8ED421D4114A200ECA928 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8ED481D41182A00ECA928 /* RYCycleModel.h */,
+				D3A8ED491D41182A00ECA928 /* RYCycleModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D3A8ED431D4114A200ECA928 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8ED4B1D411FF200ECA928 /* RYCycleCollectionViewCell.h */,
+				D3A8ED4C1D411FF200ECA928 /* RYCycleCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D3A8ED441D4114A200ECA928 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8ED451D4114DE00ECA928 /* RYCycleCollectionViewController.h */,
+				D3A8ED461D4114DE00ECA928 /* RYCycleCollectionViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		D3C68A881D3E1DE7006AA5FF = {
+			isa = PBXGroup;
+			children = (
+				D3C68A931D3E1DE7006AA5FF /* 网易彩票 */,
+				D3C68A921D3E1DE7006AA5FF /* Products */,
+				FE535A3AA076AB27269E4871 /* Pods */,
+				243ECC40AE81F12805277418 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C68A921D3E1DE7006AA5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68A911D3E1DE7006AA5FF /* 网易彩票.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C68A931D3E1DE7006AA5FF /* 网易彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8ED411D4114A200ECA928 /* Cycle */,
+				D3C68AAB1D3E2377006AA5FF /* Log */,
+				D3C68AD21D3E5E83006AA5FF /* Networktool */,
+				D3C68AC81D3E5DDB006AA5FF /* News */,
+				D3C68AB31D3E247B006AA5FF /* class */,
+				D3C68A971D3E1DE7006AA5FF /* AppDelegate.h */,
+				D3C68A981D3E1DE7006AA5FF /* AppDelegate.m */,
+				D3C68A9D1D3E1DE8006AA5FF /* Main.storyboard */,
+				D3B1FB0C1D40579B00810723 /* News.storyboard */,
+				D3C68A941D3E1DE7006AA5FF /* Supporting Files */,
+			);
+			path = "网易彩票";
+			sourceTree = "<group>";
+		};
+		D3C68A941D3E1DE7006AA5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AA01D3E1DE8006AA5FF /* Assets.xcassets */,
+				D3C68AA21D3E1DE8006AA5FF /* LaunchScreen.storyboard */,
+				D3C68AA51D3E1DE8006AA5FF /* Info.plist */,
+				D3C68AB11D3E239F006AA5FF /* topic_news.json */,
+				D3C68A951D3E1DE7006AA5FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C68AAB1D3E2377006AA5FF /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AAC1D3E2377006AA5FF /* .Ulysses-Group.plist */,
+				D3C68AAD1D3E2377006AA5FF /* NSArray+Log.h */,
+				D3C68AAE1D3E2377006AA5FF /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		D3C68AB31D3E247B006AA5FF /* class */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AB41D3E247B006AA5FF /* Channel */,
+				D3C68AB71D3E247B006AA5FF /* Home */,
+			);
+			name = class;
+			path = Log/class;
+			sourceTree = "<group>";
+		};
+		D3C68AB41D3E247B006AA5FF /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AB51D3E247B006AA5FF /* Model */,
+				D3C68AB61D3E247B006AA5FF /* View */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		D3C68AB51D3E247B006AA5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68ABE1D3E2932006AA5FF /* RYChannelModel.h */,
+				D3C68ABF1D3E2932006AA5FF /* RYChannelModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3C68AB61D3E247B006AA5FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AC11D3E4F9F006AA5FF /* RYChanneiLab.h */,
+				D3C68AC21D3E4F9F006AA5FF /* RYChanneiLab.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3C68AB71D3E247B006AA5FF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AB81D3E247B006AA5FF /* Model */,
+				D3C68AB91D3E247B006AA5FF /* View */,
+				D3C68ABA1D3E247B006AA5FF /* Viewcontroller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3C68AB81D3E247B006AA5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3C68AB91D3E247B006AA5FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AC41D3E5A7B006AA5FF /* RYHomeCollectionViewCell.h */,
+				D3C68AC51D3E5A7B006AA5FF /* RYHomeCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3C68ABA1D3E247B006AA5FF /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68ABB1D3E273C006AA5FF /* RYHomeViewController.h */,
+				D3C68ABC1D3E273C006AA5FF /* RYHomeViewController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		D3C68AC81D3E5DDB006AA5FF /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AC91D3E5DDB006AA5FF /* Model */,
+				D3C68ACA1D3E5DDB006AA5FF /* View */,
+				D3C68ACB1D3E5DDB006AA5FF /* ViewController */,
+			);
+			name = News;
+			path = Log/News;
+			sourceTree = "<group>";
+		};
+		D3C68AC91D3E5DDB006AA5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68ACF1D3E5E1E006AA5FF /* RYNewsModel.h */,
+				D3C68AD01D3E5E1E006AA5FF /* RYNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3C68ACA1D3E5DDB006AA5FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1AD5A1D40EC9A00A7D00A /* RYNewsTableViewCell.h */,
+				D3D1AD5B1D40EC9A00A7D00A /* RYNewsTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3C68ACB1D3E5DDB006AA5FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68ACC1D3E5DFF006AA5FF /* RYNewsTableViewController.h */,
+				D3C68ACD1D3E5DFF006AA5FF /* RYNewsTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D3C68AD21D3E5E83006AA5FF /* Networktool */ = {
+			isa = PBXGroup;
+			children = (
+				D3C68AD31D3E5EA1006AA5FF /* RYNetworlTools.h */,
+				D3C68AD41D3E5EA1006AA5FF /* RYNetworlTools.m */,
+			);
+			name = Networktool;
+			path = Log/Networktool;
+			sourceTree = "<group>";
+		};
+		FE535A3AA076AB27269E4871 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA259A6D332F110111871987 /* Pods-网易彩票.debug.xcconfig */,
+				D4E3E6D0B475227F5D0CB346 /* Pods-网易彩票.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C68A901D3E1DE7006AA5FF /* 网易彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C68AA81D3E1DE8006AA5FF /* Build configuration list for PBXNativeTarget "网易彩票" */;
+			buildPhases = (
+				8CBA94A15596AB31D2A71CBA /* [CP] Check Pods Manifest.lock */,
+				D3C68A8D1D3E1DE7006AA5FF /* Sources */,
+				D3C68A8E1D3E1DE7006AA5FF /* Frameworks */,
+				D3C68A8F1D3E1DE7006AA5FF /* Resources */,
+				8A7392BD88BA84FD89106013 /* [CP] Embed Pods Frameworks */,
+				1915FF7F9752812C0E6833BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票";
+			productName = "网易彩票";
+			productReference = D3C68A911D3E1DE7006AA5FF /* 网易彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C68A891D3E1DE7006AA5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HeiMaChengXuYuan;
+				TargetAttributes = {
+					D3C68A901D3E1DE7006AA5FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D3C68A8C1D3E1DE7006AA5FF /* Build configuration list for PBXProject "网易彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C68A881D3E1DE7006AA5FF;
+			productRefGroup = D3C68A921D3E1DE7006AA5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C68A901D3E1DE7006AA5FF /* 网易彩票 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C68A8F1D3E1DE7006AA5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C68AA41D3E1DE8006AA5FF /* LaunchScreen.storyboard in Resources */,
+				D3B1FB0D1D40579B00810723 /* News.storyboard in Resources */,
+				D3C68AA11D3E1DE8006AA5FF /* Assets.xcassets in Resources */,
+				D3C68AAF1D3E2377006AA5FF /* .Ulysses-Group.plist in Resources */,
+				D3C68AB21D3E239F006AA5FF /* topic_news.json in Resources */,
+				D3C68A9F1D3E1DE8006AA5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1915FF7F9752812C0E6833BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网易彩票/Pods-网易彩票-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7392BD88BA84FD89106013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网易彩票/Pods-网易彩票-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBA94A15596AB31D2A71CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C68A8D1D3E1DE7006AA5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C68ABD1D3E273C006AA5FF /* RYHomeViewController.m in Sources */,
+				D3C68AB01D3E2377006AA5FF /* NSArray+Log.m in Sources */,
+				D3C68AD11D3E5E1E006AA5FF /* RYNewsModel.m in Sources */,
+				D3C68AC61D3E5A7B006AA5FF /* RYHomeCollectionViewCell.m in Sources */,
+				D3A8ED4A1D41182A00ECA928 /* RYCycleModel.m in Sources */,
+				D3C68AC01D3E2932006AA5FF /* RYChannelModel.m in Sources */,
+				D3C68A991D3E1DE7006AA5FF /* AppDelegate.m in Sources */,
+				D3D1AD5C1D40EC9A00A7D00A /* RYNewsTableViewCell.m in Sources */,
+				D3A8ED4D1D411FF200ECA928 /* RYCycleCollectionViewCell.m in Sources */,
+				D3C68AD51D3E5EA1006AA5FF /* RYNetworlTools.m in Sources */,
+				D3C68ACE1D3E5DFF006AA5FF /* RYNewsTableViewController.m in Sources */,
+				D3C68A961D3E1DE7006AA5FF /* main.m in Sources */,
+				D3A8ED471D4114DE00ECA928 /* RYCycleCollectionViewController.m in Sources */,
+				D3C68AC31D3E4F9F006AA5FF /* RYChanneiLab.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3C68A9D1D3E1DE8006AA5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C68A9E1D3E1DE8006AA5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C68AA21D3E1DE8006AA5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C68AA31D3E1DE8006AA5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C68AA61D3E1DE8006AA5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C68AA71D3E1DE8006AA5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C68AA91D3E1DE8006AA5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA259A6D332F110111871987 /* Pods-网易彩票.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		D3C68AAA1D3E1DE8006AA5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E3E6D0B475227F5D0CB346 /* Pods-网易彩票.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C68A8C1D3E1DE7006AA5FF /* Build configuration list for PBXProject "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C68AA61D3E1DE8006AA5FF /* Debug */,
+				D3C68AA71D3E1DE8006AA5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C68AA81D3E1DE8006AA5FF /* Build configuration list for PBXNativeTarget "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C68AA91D3E1DE8006AA5FF /* Debug */,
+				D3C68AAA1D3E1DE8006AA5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C68A891D3E1DE7006AA5FF /* Project object */;
+}
