@@ -246,15 +246,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="605" height="219"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iOl-RD-jIK">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iOl-RD-jIK">
                                             <rect key="frame" x="0.0" y="0.0" width="605" height="182"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilM-Q3-gla">
-                                            <rect key="frame" x="8" y="190" width="200" height="21"/>
+                                            <rect key="frame" x="8" y="191" width="300" height="20"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="200" id="JEl-7g-qPq"/>
+                                                <constraint firstAttribute="width" constant="300" id="JEl-7g-qPq"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>

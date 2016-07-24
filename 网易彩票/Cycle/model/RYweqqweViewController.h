@@ -26,15 +26,8 @@
  *             邮箱:lingsuiderongyan@163.com
  */
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface RYChannelModel : NSObject
-
-//标签名
-@property (copy, nonatomic) NSString *tname;
-//标签ID
-@property (copy, nonatomic) NSString *tid;
-
-+(NSArray *)channels;
+@interface RYweqqweViewController : UIViewController
 
 @end

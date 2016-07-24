@@ -345,7 +345,7 @@
 			attributes = {
 				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = HeiMaChengXuYuan;
+				ORGANIZATIONNAME = wangyi;
 				TargetAttributes = {
 					D3C68A901D3E1DE7006AA5FF = {
 						CreatedOnToolsVersion = 7.2;
@@ -567,7 +567,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易彩票/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.163.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -580,7 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易彩票/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.163.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
